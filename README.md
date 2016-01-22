@@ -447,38 +447,13 @@ To install everything in one command on debian-based distros, use: (useful for V
 #https://github.com/yagop/telegram-bot/wiki/Installation
 sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/SEEDTEAM/TeleSeed.git && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
-### Realm configuration 
-
-After you ran bot for first time, go to bot and use !id command
-
-Get your id then, stop bot
-
-open file ./data/config.lua 
-
-add your id to the "sudo_users" section in the following format:
-```
-  sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
-    YourID
-  }
-```
-then start the bot again
-
-Create a realm using !createrealm command
-
-
-# Support and development
-
-Check out this tutorial by: [Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
-
-Do not contact **us** In private for support.
-Join our bot development group by sending `/join 56670147` to [@TeleSeed](https://telegram.me/TeleSeed)
-
-_If you are using /join service for first time you have to send it 11 times ( Bot is spam reported )_
-
-# Special thanks to
+# creator and editor
 [daniyal_5ive](telegram.me/daniyal_5ive)
-[amir_ab_1]
+
+
+[amir_ab_1](telegram,me/amir_ab_1)
+
+
+# support manager
+
+[join](https://telegram.me/joinchat/Cp0Q7AZBkOE2bOIvchqCMg)
